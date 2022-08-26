@@ -1,0 +1,27 @@
+$hello: 'content';
+$width: 40px;
+
+.contain-body-width {
+  width: 18rem;
+}
+.contain-body-a {
+  border: 2em;
+  margin: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+  .card {
+   margin: 10px; 
+   
+  }
+}
+.parentArticle{
+  display: flex;
+  justify-content: center;
+  margin-top:2% ;
+  .article{
+    width: 60%;
+    height:40%;
+  }
+}
